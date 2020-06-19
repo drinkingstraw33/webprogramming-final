@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <%= stylesheet_link_tag "oppanGwanakStyle.css" %>
+    <title>관악구 맛집 백과 - 배달/포장</title>
+</head>
+
+<body>
+<div class="container-sm card mt-5 p-3 text-center">
+<h1 class="mb-3">수정하기</h1>
+<%= render 'form' %>
+
+<div class="container">
+<div class="btn btn-warning p-0">
+  <%= link_to '돌아가기', takeoutfoods_path, :class => "btn" %>
+</div>
+</div>
+</div>
+</body>

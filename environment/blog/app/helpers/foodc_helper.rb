@@ -1,0 +1,2 @@
+module FoodcHelper
+end
